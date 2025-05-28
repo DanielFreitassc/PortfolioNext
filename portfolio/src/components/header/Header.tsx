@@ -37,26 +37,34 @@ export default function Header() {
         </div>
 
         <ul
-        className={`list-none flex gap-8 transition-transform duration-300
-        max-[999px]:fixed max-[999px]:top-[8vh] max-[999px]:right-0
-        max-[999px]:w-[30vw] max-[999px]:h-[92vh] max-[999px]:bg-[#23232e]
-        max-[999px]:flex-col max-[999px]:items-center max-[999px]:justify-around
-        max-[999px]:transform ${
+          className={`list-none flex gap-8 transition-transform duration-300
+          max-[999px]:fixed max-[999px]:top-[8vh] max-[999px]:right-0
+          max-[999px]:w-[30vw] max-[999px]:h-[92vh] max-[999px]:bg-[#23232e]
+          max-[999px]:flex-col max-[999px]:items-center max-[999px]:justify-around
+          max-[999px]:transform ${
             menuOpen ? "max-[999px]:translate-x-0" : "max-[999px]:translate-x-full"
-        }`}
+          }`}
         >
-        <li className="tracking-wider max-[999px]:opacity-100">
-            <span className="text-[#C778DD]">#</span>home
-        </li>
-        <li className="tracking-wider max-[999px]:opacity-100">
-            <span className="text-[#C778DD]">#</span>Projetos
-        </li>
-        <li className="tracking-wider max-[999px]:opacity-100">
-            <span className="text-[#C778DD]">#</span>Sobre
-        </li>
-        <li className="tracking-wider max-[999px]:opacity-100">
-            <span className="text-[#C778DD]">#</span>Contato
-        </li>
+          <li className="tracking-wider max-[999px]:opacity-100">
+            <Link href="/">
+              <span className="text-[#C778DD]">#</span>home
+            </Link>
+          </li>
+          <li className="tracking-wider max-[999px]:opacity-100">
+            <Link href="/projects">
+              <span className="text-[#C778DD]">#</span>projetos
+            </Link>
+          </li>
+          <li className="tracking-wider max-[999px]:opacity-100">
+            <Link href="/#sobre">
+              <span className="text-[#C778DD]">#</span>sobre
+            </Link>
+          </li>
+          <li className="tracking-wider max-[999px]:opacity-100">
+            <Link href="/#contato">
+              <span className="text-[#C778DD]">#</span>contato
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
