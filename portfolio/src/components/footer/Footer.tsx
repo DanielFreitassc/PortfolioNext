@@ -14,8 +14,8 @@ export default function Footer() {
         </div>
 
         {/* Lado Direito */}
-        <div className="flex flex-col items-start md:items-end justify-between">
-          <h2 className="text-lg font-mono mb-2">Mídias</h2>
+        <div className="flex flex-col items-start md:items-end justify-betwee">
+          <h2 className="text-lg font-mono mb-2 mr-5 max-[999px]:ml-4">Mídias</h2>
           <div className="flex gap-4 mb-4">
             <a
               href="https://github.com/DanielFreitassc"
