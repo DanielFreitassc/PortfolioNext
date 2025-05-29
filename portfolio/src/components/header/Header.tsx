@@ -47,22 +47,22 @@ export default function Header() {
         >
           <li className="tracking-wider max-[999px]:opacity-100">
             <Link href="/">
-              <span className="text-[#C778DD]">#</span>home
+              <span className="text-[#C778DD]">#</span>Home
             </Link>
           </li>
           <li className="tracking-wider max-[999px]:opacity-100">
             <Link href="/projects">
-              <span className="text-[#C778DD]">#</span>projetos
+              <span className="text-[#C778DD]">#</span>Projetos
             </Link>
           </li>
           <li className="tracking-wider max-[999px]:opacity-100">
             <Link href="/#sobre">
-              <span className="text-[#C778DD]">#</span>sobre
+              <span className="text-[#C778DD]">#</span>Sobre
             </Link>
           </li>
           <li className="tracking-wider max-[999px]:opacity-100">
             <Link href="/#contato">
-              <span className="text-[#C778DD]">#</span>contato
+              <span className="text-[#C778DD]">#</span>Contato
             </Link>
           </li>
         </ul>
